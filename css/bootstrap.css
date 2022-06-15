@@ -4018,6 +4018,7 @@ textarea.form-control-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   text-transform: uppercase;
+  
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -4060,9 +4061,10 @@ textarea.form-control-lg {
 }
 
 .navbar-collapse {
-  flex-basis: 100%;
+  flex-basis: content;
   flex-grow: 1;
   align-items: center;
+  height: 50px;
 }
 
 .navbar-toggler {
@@ -4119,7 +4121,7 @@ textarea.form-control-lg {
     padding-left: 0.5rem;
   }
   .navbar-expand-sm .navbar-nav-scroll {
-    overflow: visible;
+    overflow: auto;
   }
   .navbar-expand-sm .navbar-collapse {
     display: flex !important;
